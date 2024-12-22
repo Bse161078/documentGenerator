@@ -1,0 +1,66 @@
+.app-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.title {
+  text-align: center;
+  color: #333;
+}
+
+.upload-section {
+  margin-bottom: 20px;
+}
+
+.upload-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.file-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #004494;
+}
+
+.submit-button:disabled {
+  background-color: #ccc;
+}
+
+.download-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.download-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.download-link a:hover {
+  text-decoration: underline;
+}
