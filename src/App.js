@@ -143,7 +143,7 @@ const App = () => {
 
           {currentAction === 'excelPassport' && (
             <div className="form-container">
-              <h2>Excel Generation from Passport Data</h2>
+              <h2>Excel Generation from Passport Image/Images</h2>
               <input type="file" accept="image/*" multiple onChange={handlePassportUpload} />
               <button type="submit" disabled={loading}>
                 {loading ? 'Processing...' : 'Generate Excel'}
