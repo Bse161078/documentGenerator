@@ -4,10 +4,12 @@ import './App.css';
 const App = () => {
   const [currentAction, setCurrentAction] = useState('');
   const [formData, setFormData] = useState({
-    abFlug: '',
+    abFlugTime: '',
+    abFlugDate:'',
     cityFrom: '',
     cityTo: '',
-    ankunft: '',
+    ankunftDate: '',
+    ankunftTime:'',
     from: '',
     to: '',
     flight: '',
